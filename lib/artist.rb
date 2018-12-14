@@ -8,20 +8,7 @@
 #   end
 # end
 
-class Artist
+class Artist (name)
 attr_accessor :name
-
-@@song_count = 0
-
-def initialize (name)
-  @name = name
-  @songs = []
-end
-
-def add_song(song)
-  self.songs << songs
-  song.artist = self
-  @@song_count += 1
-end
 
 end
